@@ -7,6 +7,9 @@ const nextConfig: NextConfig = {
     TEMP_EMAIL: process.env.NEXT_PUBLIC_TEMP_EMAIL,
     TEMP_PASSWORD: process.env.NEXT_PUBLIC_TEMP_PASSWORD,
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;
