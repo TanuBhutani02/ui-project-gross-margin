@@ -1,7 +1,7 @@
 import Axios from "axios";
 
 export const axiosInstance = Axios.create({
-    baseURL: 'http://localhost:3009/api/v1',
+    baseURL: 'https://services-project-finance-production.up.railway.app/api/v1',
     headers: {
         "Content-Type": "application/json",
     },
